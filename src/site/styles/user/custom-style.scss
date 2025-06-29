@@ -68,6 +68,12 @@ nav {
 	margin-top: 3rem;
 }
 
-.sidebar-container, .content {
-	top: 0 !important;
+.content {
+    margin-top: 0px;
+    right: 4rem;    margin
+}
+
+.sidebar-container {
+	position: relative;
+	right: 4rem;
 }
