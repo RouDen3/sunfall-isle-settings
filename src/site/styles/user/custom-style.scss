@@ -83,3 +83,8 @@ nav {
 header h1 {
 	margin-top: 0;
 }
+
+input[type="range"] {
+	min-width: 195px;
+	max-width: 635px;
+}
