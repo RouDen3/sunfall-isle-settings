@@ -17,3 +17,23 @@ nav {
 .force-graph-container {
 	border: 1px solid var(--color-base-50)
 }
+
+#graph-depth::-webkit-slider-runnable-track {
+	background-color: var(--color-base-30);
+	border-radius: 3px;
+	height: 5px;
+}
+
+#graph-depth::-moz-range-track {
+	background-color: var(--color-base-30);
+	border-radius: 3px;
+	height: 5px;
+}
+
+#graph-depth::-moz-range-track:hover {
+	background-color: var(--color-base-40);
+}
+
+#graph-depth::-webkit-slider-runnable-track:hover {
+	background-color: var(--color-base-40);
+}
