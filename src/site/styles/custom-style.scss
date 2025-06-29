@@ -9,3 +9,11 @@ header {
 nav {
 	border-right: 1px solid var(--color-base-50)
 }
+
+.graph-title-container {
+	justify-content: flex-start;
+}
+
+.force-graph-container {
+	border: 1px solid var(--color-base-50)
+}
