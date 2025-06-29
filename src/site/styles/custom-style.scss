@@ -1,9 +1,11 @@
-:root {
+main {
 	font-size: 13px;
+	font-family: "Sarasa Gothic SC", sans-serif;
 }
 
 body {
-
+	font-size: 13px;
+	font-family: "Sarasa Gothic SC", sans-serif;
 }
 
 header {
@@ -40,4 +42,13 @@ nav {
 
 #graph-depth::-webkit-slider-runnable-track:hover {
 	background-color: var(--color-base-40);
+}
+
+.filetree-sidebar > a:nth-child(1) > h1:nth-child(1) {
+	text-align: start;
+	font-size: 17px !important;
+	padding-left: 13px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid var(--color-base-50);
 }
