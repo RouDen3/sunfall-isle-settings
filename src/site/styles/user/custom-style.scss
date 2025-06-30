@@ -9,11 +9,11 @@ body {
 }
 
 header {
-	border-bottom: 1px solid var(--color-base-50)
+	border-bottom: 1px solid var(--border-subtle-0)
 }
 
 nav {
-	border-right: 1px solid var(--color-base-50)
+	border-right: 1px solid var(--border-subtle-0)
 }
 
 .graph-title-container {
@@ -21,7 +21,7 @@ nav {
 }
 
 .force-graph-container {
-	border: 1px solid var(--color-base-50)
+	border: 1px solid var(--border-subtle-0)
 }
 
 #graph-depth::-webkit-slider-runnable-track {
